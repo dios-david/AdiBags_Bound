@@ -1,4 +1,7 @@
-AdiBags_Bound
-=============
+# AdiBags BoE & BoA
 
-[http://www.curse.com/addons/wow/adibags_bound](http://www.curse.com/addons/wow/adibags_bound)
+Adds BoE/BoA filters to AdiBags.
+
+<img src="https://media.forgecdn.net/attachments/98/538/AdiBags_Bound.PNG" />
+
+Install from Curseforge: [https://www.curseforge.com/wow/addons/adibags-boe-boa](https://www.curseforge.com/wow/addons/adibags-boe-boa)

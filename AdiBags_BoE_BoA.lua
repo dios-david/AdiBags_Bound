@@ -1,6 +1,6 @@
 --[[
 AdiBags_Bound - Adds BoE/BoA filters to AdiBags.
-Copyright 2010-2015 Kevin (kevin@outroot.com)
+Copyright 2010-2012 Kevin (kevin@outroot.com)
 All rights reserved.
 --]]
 
@@ -80,9 +80,9 @@ function setFilter:Filter(slotData)
   tooltip:ClearLines()
 
 if slotData.bag == BANK_CONTAINER then
-  tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
+	tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
 else
-  tooltip:SetBagItem(slotData.bag, slotData.slot)
+	tooltip:SetBagItem(slotData.bag, slotData.slot)
 end
 
   for i = 1,6 do
